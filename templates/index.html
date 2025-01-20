@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Mabar list Converter</h1>
+<form id="convertForm">
+    <textarea name="text" id="textInput" rows="6" placeholder="Enter your text here..."></textarea>
+    <div class="button-group">
+        <button type="submit" class="btn convert-btn">Convert to PDF</button>
+        <button type="button" id="downloadButton" class="btn download-btn" style="display: none;">Download PDF</button>
+    </div>
+</form>
+<div id="status"></div>
+{% endblock %}

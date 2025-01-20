@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 400px;  /* Reduced from 600px */
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;  /* Slightly reduced font size */
+}
+
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    min-height: 120px;
+    max-width: 320px;  /* Added max-width */
+    display: block;    /* Added display block */
+    margin-left: auto; /* Center the textarea */
+    margin-right: auto;
+}
+
+.button-group {
+    display: flex;
+    gap: 0.5rem;  /* Reduced gap */
+    justify-content: center;
+}
+
+.btn {
+    padding: 0.6rem 1rem;  /* Slightly reduced padding */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;    /* Reduced from 150px */
+    font-size: 0.9rem;
+}
+
+.convert-btn {
+    background-color: #007bff;
+}
+
+.convert-btn:hover {
+    background-color: #0056b3;
+}
+
+.download-btn {
+    background-color: #28a745;
+}
+
+.download-btn:hover {
+    background-color: #218838;
+}
+
+#status {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
